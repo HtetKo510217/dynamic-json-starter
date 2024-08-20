@@ -1,0 +1,16 @@
+{
+  "name": "dynamic-json-starter",
+  "version": "1.0.0",
+  "main": "bin/index.js",
+  "bin": {
+    "dynamic-json-starter": "./bin/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "figlet": "^1.7.0",
+    "gradient-string": "^2.0.0",
+    "inquirer": "^10.0.0",
+    "simple-git": "^3.0.0"
+  }
+}
