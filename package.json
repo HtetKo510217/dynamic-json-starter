@@ -6,11 +6,38 @@
     "dynamic-json-starter": "./bin/index.js"
   },
   "type": "module",
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "keywords": [
+    "CLI",
+    "starter",
+    "React",
+    "TypeScript",
+    "dynamic-json",
+    "generator"
+  ],
+  "author": "htetko510217",
+  "license": "ISC",
+  "description": "A starter CLI tool to create a React TypeScript project with dynamic JSON features.",
   "dependencies": {
     "chalk": "^5.0.0",
     "figlet": "^1.7.0",
     "gradient-string": "^2.0.0",
     "inquirer": "^10.0.0",
     "simple-git": "^3.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/htetko510217/dynamic-json-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/htetko510217/dynamic-json-starter/issues"
+  },
+  "homepage": "https://github.com/htetko510217/dynamic-json-starter#readme",
+  "files": [
+    "bin/",
+    "README.md",
+    "package.json"
+  ]
 }
